@@ -1,11 +1,16 @@
 # rasseki.game
-C++ course project.
+C++ course project made with Qt.
 
 Text event-driven RPG with interactive map.
 
-User can add custom events, items and even custom maps. Each map has its own events.
+Users can add custom events, items and even custom maps. Each map has its own events.
 
-### Installation
+## Requirements
+
+* `qtchooser` or analog making you able to run `qmake`
+* `g++` or other C+ compiler
+
+## Installation
 #### Way 1
 
 In order to use this method you should have the package `qtchooser` installed.
@@ -28,6 +33,8 @@ make
 #### Way 2
 Download the latest release and place the binary to the `rasseki.game` folder.
 
+Pre-compiled binary may not suite to your OS.
+
 ```bash
 git clone https://github.com/eadium/rasseki.game
 cd rasseki.game
@@ -41,3 +48,4 @@ wget https://github.com/eadium/rasseki.game/releases/download/ver_0.1/rasseki_ga
 
 ###### Primary interface
 ![interface](https://image.ibb.co/fAY1Yp/Screenshot_from_2018_10_07_11_37_07.png)
+  
