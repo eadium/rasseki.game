@@ -1,20 +1,18 @@
 # rasseki.game
-Текстовая РПГ с интерактивной картой
+
+Text RPG with interactive map
 
 ### Installation
 #### Way 1
 
 In order to use this method you should have the package `qtchooser` installed.
-
-`git clone https://github.com/Rasseki-Studios/rasseki.game`
-
-`cd rasseki.game`
-
-`qmake`
-
-`make`
-
-`./rasseki_game`
+```
+git clone https://github.com/Rasseki-Studios/rasseki.game
+cd rasseki.game
+qmake
+make
+./rasseki_game
+```
 
 #### Way 2
 Download the latest release and place the binary to the `rasseki.game` folder.
