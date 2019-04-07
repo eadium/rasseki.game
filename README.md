@@ -8,19 +8,19 @@ Users can add custom events, items and even custom maps. Each map has its own ev
 ## Requirements
 
 * `qtchooser` or analog making you able to run `qmake`
-* `g++` or other C+ compiler
+* `g++` or other C++ compiler
 
 ## Installation
 #### Way 1
 
 In order to use this method you should have the package `qtchooser` installed.
 
-Ubuntu users can install it via `apt`.
+For Ubuntu users:
 
 ```bash
 sudo apt install qtchooser
 ```
-Then you'll need to clone and build binary.
+Then you'll need to clone the source and build binary.
 
 ```bash
 git clone https://github.com/eadium/rasseki.game
@@ -33,7 +33,7 @@ make
 #### Way 2
 Download the latest release and place the binary to the `rasseki.game` folder.
 
-Pre-compiled binary may not suite to your OS.
+Pre-compiled binary may not be compatible with your OS
 
 ```bash
 git clone https://github.com/eadium/rasseki.game
