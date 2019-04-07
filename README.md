@@ -1,13 +1,24 @@
 # rasseki.game
+C++ course project.
 
-Text RPG with interactive map
+Text event-driven RPG with interactive map.
+
+User can add custom events, items and even custom maps. Each map has its own events.
 
 ### Installation
 #### Way 1
 
 In order to use this method you should have the package `qtchooser` installed.
+
+Ubuntu users can install it via `apt`.
+
+```bash
+sudo apt install qtchooser
 ```
-git clone https://github.com/Rasseki-Studios/rasseki.game
+Then you'll need to clone and build binary.
+
+```bash
+git clone https://github.com/eadium/rasseki.game
 cd rasseki.game
 qmake
 make
@@ -17,7 +28,12 @@ make
 #### Way 2
 Download the latest release and place the binary to the `rasseki.game` folder.
 
-Run `./rasseki_game`
+```bash
+git clone https://github.com/eadium/rasseki.game
+cd rasseki.game
+wget https://github.com/eadium/rasseki.game/releases/download/ver_0.1/rasseki_game
+./rasseki_game
+```
 
 ### Screenshots
 ###### Main menu
